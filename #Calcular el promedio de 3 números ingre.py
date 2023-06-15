@@ -5,5 +5,5 @@ numero_1=int(input("ingresar numero"))
 numero_2=int(input("ingresar numero"))
 numero_3=int(input("ingresar numero"))
 
-promedio= int(numero_1,numero_2,numero_3/2 )
+promedio= (numero_1 + numero_2 + numero_3 ) / 2 
 print(promedio)
