@@ -1,5 +1,4 @@
-#Realiza un programa que  me calcule el  área  del  circulo, la  cual el usuario ingresa
-#el  valor del  radio
+#Realiza un programa que  me calcule el  área  del  circulo, la  cual el usuario ingresa el  valor del  radio
 
 import math
 def calcular_area(radio):

@@ -17,7 +17,6 @@ def suma_de_fracciones(fraccion1, fraccion2, fraccion3):
     numerador = fraccion1[0] * (denominador // fraccion1[1]) + fraccion2[0] * (denominador // fraccion2[1]) + fraccion3[0] * (denominador // fraccion3[1])
     return fraccion_simple(numerador, denominador)
 
-# Leer los numeradores y denominadores de las fracciones
 num1 = int(input("Ingrese el numerador de la primera fracción: "))
 den1 = int(input("Ingrese el denominador de la primera fracción: "))
 
@@ -27,13 +26,11 @@ den2 = int(input("Ingrese el denominador de la segunda fracción: "))
 num3 = int(input("Ingrese el numerador de la tercera fracción: "))
 den3 = int(input("Ingrese el denominador de la tercera fracción: "))
 
-# Simplificar las fracciones
+
 fraccion1 = fraccion_simple(num1, den1)
 fraccion2 = fraccion_simple(num2, den2)
 fraccion3 = fraccion_simple(num3, den3)
 
-# Sumar las fracciones
 result = suma_de_fracciones(fraccion1, fraccion2, fraccion3)
 
-# Imprimir el resultado
 print("La suma de las fracciones es: {}/{}".format(result[0], result[1]))
